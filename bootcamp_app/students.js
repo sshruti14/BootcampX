@@ -2,7 +2,7 @@ const { Pool } = require('pg');
 
 const limit = process.argv[3];
 const cohort = process.argv[2];
-
+console.log('Hello');
 const pool = new Pool({
   user: 'vagrant',
   password: '123',
